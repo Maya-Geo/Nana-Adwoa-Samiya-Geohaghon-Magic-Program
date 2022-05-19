@@ -90,14 +90,7 @@ export default function App() {
             </Text>
           </View>
           <View style={{ top: 50, flexDirection: "row" }}>
-            <View
-              style={[
-                styles.Icon,
-                {
-                  borderColor: color,
-                },
-              ]}
-            >
+            <View style={[styles.Icon]}>
               <Entypo
                 name="facebook-with-circle"
                 size={45}
@@ -105,14 +98,7 @@ export default function App() {
                 style={styles.iconFb}
               />
             </View>
-            <View
-              style={[
-                styles.Icon,
-                {
-                  borderColor: color,
-                },
-              ]}
-            >
+            <View style={[styles.Icon]}>
               <Entypo
                 name="twitter-with-circle"
                 size={45}
@@ -121,14 +107,7 @@ export default function App() {
               />
             </View>
 
-            <View
-              style={[
-                styles.Icon,
-                {
-                  borderColor: color,
-                },
-              ]}
-            >
+            <View style={[styles.Icon]}>
               <FontAwesome
                 name="google-plus-official"
                 size={47}
@@ -137,14 +116,7 @@ export default function App() {
               />
             </View>
 
-            <View
-              style={[
-                styles.Icon,
-                {
-                  borderColor: color,
-                },
-              ]}
-            >
+            <View style={[styles.Icon]}>
               <Entypo
                 name="dribbble-with-circle"
                 size={45}
